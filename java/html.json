@@ -1,0 +1,22 @@
+{
+	"HTML Template": {
+		"prefix": "html template",
+		"body": ["<!DOCTYPE html>",
+			"",
+			"<html>",
+			"\t<head>",
+			"\t\t<meta charset=\"utf-8\">",
+			"\t\t<title>${1:Title}</title>",
+			"\t\t",
+			"\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"${2:CSS File}\">",
+			"\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+			"\t</head>",
+			"\t<body>",
+			"\t\t$0",
+			"\t\t",
+			"\t\t<script src=\"${3:JS File}\"></script>",
+			"\t</body>",
+			"</html>"],
+		"description": "Basic HTML template"
+	}
+}
