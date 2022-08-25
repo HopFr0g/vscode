@@ -1,0 +1,31 @@
+{
+	"Express.js": {
+		"prefix": "express.js template",
+		"body": [
+			"const express = require(\"express\");",
+			"const app = express();",
+			"",
+			"// For public servers only:",
+			"const cors = require(\"cors\");",
+			"app.use(cors({origin: \"*\"}));",
+			"",
+			"// Middleware to read request body:",
+			"app.use(express.json());",
+			"",
+			"// Middleware to define a public folder containing HTML/CSS/JS/image files:",
+			"app.use(express.static(\"public\"));",
+			"",
+			"// Use it to access the request IP:",
+			"app.set(\"trust proxy\", true);",
+			"",
+			"app.get(\"/\", (req, res) => {",
+			"\tres.send(\"Hello, world!\");",
+			"});",
+			"",
+			"app.listen(3000, () => {",
+			"\tconsole.log(\"Listening on port 3000!\");",
+			"});"
+		],
+		"description": "Basic express.js template"
+	}
+}
