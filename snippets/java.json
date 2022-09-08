@@ -161,5 +161,16 @@
 			"\tpublic BaseResponse createOrUpdate${1: Nombre del modelo (con inicial en mayús)}(${1: Nombre del modelo (con inicial en mayús)} ${2: Nombre del modelo (con inicial en minús)});",
 			"}"
 		]
+	},
+	"Getter y Setter": {
+		"prefix": "Getter y Setter Snippet",
+		"body": [
+			"public ${1: TIPO_DE_DATOS} get${3: NOMBRE_ATRIBUTO_CON_INICIAL_EN_MAYUSCULA}() {",
+			"\treturn this.${2: NOMBRE_ATRIBUTO};",
+			"}",
+			"public void set${3: NOMBRE_ATRIBUTO_CON_INICIAL_EN_MAYUSCULA}(${1: TIPO_DE_DATOS} ${2: NOMBRE_ATRIBUTO}) {",
+			"\tthis.${2: NOMBRE_ATRIBUTO} = ${2: NOMBRE_ATRIBUTO};",
+			"}"
+		]
 	}
 }
