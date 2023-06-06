@@ -1,0 +1,6 @@
+{
+    "editor.trimAutoWhitespace": false,
+    "explorer.compactFolders": false,
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "key": "ctrl+numpad_add",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+shift+oem_plus",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+oem_plus",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+numpad_subtract",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+shift+oem_minus",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+oem_minus",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+numpad_add",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "ctrl+oem_plus",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "ctrl+numpad_subtract",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "ctrl+oem_minus",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "selectPartOfWord.moveLeft"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-selectPartOfWord.moveLeft"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "selectPartOfWord.moveRight"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-selectPartOfWord.moveRight"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "selectPartOfWord.backspace"
+    },
+    {
+        "key": "ctrl+alt+backspace",
+        "command": "-selectPartOfWord.backspace"
+    },
+    {
+        "key": "ctrl+delete",
+        "command": "selectPartOfWord.delete"
+    },
+    {
+        "key": "ctrl+shift+alt+delete",
+        "command": "-selectPartOfWord.delete"
+    }
+]
